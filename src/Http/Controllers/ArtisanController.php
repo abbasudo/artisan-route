@@ -18,7 +18,7 @@ class ArtisanController extends BaseController
      */
     public function store(Request $request)
     {
-        abort_if(app()['env'] === 'production' or app()['debug'] === false, 404);
+        abort_unless(app()['env'] === 'local' and config('app.debug') == 'true', 404);
 
         Artisan::call($request->input('command'), $request->except('command'));
 
