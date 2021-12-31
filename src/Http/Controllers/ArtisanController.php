@@ -14,16 +14,14 @@ class ArtisanController extends BaseController
      *
      * @param  \Illuminate\Http\Request  $request
      *
-     * @return \Illuminate\Http\JsonResponse
+     * @return string
      */
     public function store(Request $request)
     {
-        abort_if(app()['env'] === 'production', 404);
+        abort_if(app()['env'] === 'production' or app()['debug'] === false, 404);
 
-        $data    = Artisan::call($request->input('command'), $request->except('command'));
-        $message = Artisan::output();
-        $status  = 'successful';
+        Artisan::call($request->input('command'), $request->except('command'));
 
-        return response()->json(compact(['data', 'message', 'status']), 201);
+        return Artisan::output();
     }
 }
