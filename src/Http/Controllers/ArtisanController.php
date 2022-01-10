@@ -1,6 +1,5 @@
 <?php
 
-
 namespace Llabbasmkhll\ArtisanRoute\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -12,7 +11,7 @@ class ArtisanController extends BaseController
     /**
      * run an artisan command by api.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      *
      * @return string
      */
