@@ -26,5 +26,4 @@ class ArtisanRouteServiceProvider extends ServiceProvider
             'middleware' => ['api'],
         ];
     }
-
 }
