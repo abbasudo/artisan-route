@@ -52,7 +52,7 @@ you can call the api with the artisan command as a payload like bellow.
 <br />
 <br />
 <hr />
-if you want to run a specific flag add the artisan command as a key like bellow.
+if you want to run a specific flag add the flag keyword as a key like below.
 
 ![image](https://user-images.githubusercontent.com/86796762/147836989-a49000e7-7aa5-457c-82d7-62fcaa21cd68.png)
 
