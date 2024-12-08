@@ -30,7 +30,7 @@ This package helps you run laravel artisan commands by calling the api. this wil
 
 You can install the package via composer by this command:
    ```sh
-   composer require llabbasmkhll/artisan-route 
+   composer require abbasudo/artisan-route 
    ```
 
 <br />
@@ -77,8 +77,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Abbas mkhzomi - [Telegram@llabbasmkhll](https://t.me/llabbasmkhll) - llabbasmkhll@gmail.com
+Abbas mkhzomi - [Telegram@abbasudo](https://t.me/abbasudox) - amkhzomi@gmail.com
 
-Project Link: [https://github.com/llabbasmkhll/artisan-route](https://github.com/llabbasmkhll/artisan-route)
+Project Link: [https://github.com/abbasudo/artisan-route](https://github.com/abbasudo/artisan-route)
 
 
